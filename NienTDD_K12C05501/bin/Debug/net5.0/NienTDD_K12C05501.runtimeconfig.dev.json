@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/home/yuino/.dotnet/store/|arch|/|tfm|",
+      "/home/yuino/.nuget/packages"
+    ]
+  }
+}

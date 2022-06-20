@@ -7,5 +7,5 @@ WORKDIR /usr/src/app/
 COPY ./ /usr/src/app/
 
 user root
-RUN chmod +x ./run-initialization.sh
+RUN chmod +x ./run-initialization.shs
 

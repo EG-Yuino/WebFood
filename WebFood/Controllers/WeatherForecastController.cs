@@ -4,6 +4,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+// Add swagger
+using Swashbuckle.AspNetCore.Annotations;
 
 namespace WebFood.Controllers
 {
@@ -24,6 +26,11 @@ namespace WebFood.Controllers
         }
 
         [HttpGet]
+        [RequireHttps] 
+        [SwaggerOperation(
+            Summary ="",
+            Description = "API firit"
+        )]
         public IEnumerable<WeatherForecast> Get()
         {
             var rng = new Random();

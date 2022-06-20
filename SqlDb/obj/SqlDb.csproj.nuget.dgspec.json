@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/yuino/DATT/WebFood/WebFood.csproj": {}
+    "/home/yuino/DATT/SqlDb/SqlDb.csproj": {}
   },
   "projects": {
-    "/home/yuino/DATT/WebFood/WebFood.csproj": {
+    "/home/yuino/DATT/SqlDb/SqlDb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/yuino/DATT/WebFood/WebFood.csproj",
-        "projectName": "WebFood",
-        "projectPath": "/home/yuino/DATT/WebFood/WebFood.csproj",
+        "projectUniqueName": "/home/yuino/DATT/SqlDb/SqlDb.csproj",
+        "projectName": "SqlDb",
+        "projectPath": "/home/yuino/DATT/SqlDb/SqlDb.csproj",
         "packagesPath": "/home/yuino/.nuget/packages/",
-        "outputPath": "/home/yuino/DATT/WebFood/obj/",
+        "outputPath": "/home/yuino/DATT/SqlDb/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/yuino/.nuget/NuGet/NuGet.Config"
@@ -37,20 +37,6 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "dependencies": {
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[5.6.3, )"
-            },
-            "Swashbuckle.AspNetCore.Annotations": {
-              "target": "Package",
-              "version": "[6.3.1, )"
-            },
-            "Swashbuckle.AspNetCore.SwaggerUI": {
-              "target": "Package",
-              "version": "[6.3.1, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -62,9 +48,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

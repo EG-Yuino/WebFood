@@ -8,4 +8,4 @@ services:
       context: ./Sql
       dockerfile: Dockerfile
     environment:
-      - name=value
+        - name=value
